@@ -1,0 +1,19 @@
+body {
+  padding-top: 50px;
+}
+.template {
+  padding: 40px 15px;
+}
+
+.banner-text{
+    height: 300px;
+    background-color: #696969;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 300px; 
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
