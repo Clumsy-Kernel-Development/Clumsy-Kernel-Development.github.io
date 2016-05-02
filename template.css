@@ -1,6 +1,12 @@
 body {
   padding-top: 50px;
 }
+
+@font-face {
+    font-family: DroidLogo;
+    src: url(fonts/DroidLogo-Regular.ttf);
+}
+
 .template {
   padding: 40px 15px;
 }
@@ -9,8 +15,9 @@ body {
     background-color: #2c2e30;
     color: #ffffff;
 }
-.jumbotron > h1 {
+.jumbotron > h1, h2, h3 {
     color: #ffffff;
+    font-family: DroidLogo;
 }
 
 .banner-text{
@@ -25,6 +32,7 @@ body {
 /* Blue */
 /* --- Style --- */
 .navbar-default {
+  font-family: DroidLogo;
   background-color: #1565C0;
   border-color: #0D47A1;
 }
