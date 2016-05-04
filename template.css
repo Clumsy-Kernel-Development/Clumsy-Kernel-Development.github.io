@@ -4,6 +4,12 @@
   margin-bottom: 100px;
   clear: both;
 }
+#container {
+    min-height: 100%;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
 
 @font-face {
     font-family: DroidLogo;
